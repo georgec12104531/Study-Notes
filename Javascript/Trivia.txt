@@ -1,0 +1,11 @@
+1. What are 6 primitive data types in Javascript?
+  - String
+  - Boolean
+  - Null
+  - Undefined
+  - Symbol
+  - Number
+ 
+Solution:
+https://developer.mozilla.org/en-US/docs/Glossary/
+
