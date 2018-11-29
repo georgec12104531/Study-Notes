@@ -9,3 +9,5 @@
 Solution:
 https://developer.mozilla.org/en-US/docs/Glossary/
 
+2. What is a closure? When would you use one?
+Closures are functions that have access to the outer (enclosing) function's variables. Currying or private functions.
