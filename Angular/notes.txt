@@ -1,0 +1,63 @@
+What is TypeScript? 
+A lightweight modern superset of JavaScript that gets compiled into 
+Type annotation: 
+You can add a type annotation to validate that what you pass in is of the same data type of the annotation.
+
+Function greeting(person: string) {
+	Return “hello” + person
+}
+
+Let user = “Jenn”
+
+document.body.innerHTML = greeter(user);
+
+Has no error…
+
+But if you pass in the parameters of [1, 2, 3, 4] it throws an error…
+
+Interfaces
+
+Interface Person {
+	firstName: string,
+	lastName: string
+}
+
+Function greeting(person: Person) {
+	Return “Hello” +  person.firstName + “ ” + person.lastName
+}
+
+
+Let user = new Person(“George”, “Chang”)
+document.body.innerHTML()
+
+Classes
+
+Typescript supports classes and they work similarly to how interfaces work 
+
+So you could have
+
+Interface Person = {
+	firstName: string,
+	lastName: string
+}
+
+Class Student {
+	fullName: string
+	constructor(public firstName: string, public middleName: string, lastName: string) {
+		this.fullName = firstName + “ ” + middleName + “ ” + lastName
+  }
+}
+
+Let user = new Students(“George”, “Charles”, “Chang”)
+
+document.body.innerHTML(greeting(user))
+
+
+What is two way data-binding?
+
+When there is an update in the view/template, the model/properties should be updated.
+When there is an update in the model/property the view/template should be updated.
+[()] banana in a box
+[] for property binding, data flow from the class to the template
+() for event binding, data flow from template to the class
+
