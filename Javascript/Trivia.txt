@@ -11,3 +11,23 @@ https://developer.mozilla.org/en-US/docs/Glossary/
 
 2. What is a closure? When would you use one?
 Closures are functions that have access to the outer (enclosing) function's variables. Currying or private functions.
+
+3.
+function Node(val, children = []) {
+  this.val = val;
+  this.children = children;
+}
+
+class Node {
+  constructor(val, children) {
+    this.val = val;
+    this.children = children;
+  }
+
+}
+
+// No constructor function in arrow functions
+const Node = (val, children) => {
+  val = val;
+  children = children;
+}
