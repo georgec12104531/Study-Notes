@@ -23,7 +23,6 @@ class Node {
     this.val = val;
     this.children = children;
   }
-
 }
 
 // No constructor function in arrow functions
